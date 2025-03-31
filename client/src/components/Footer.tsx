@@ -3,6 +3,8 @@ import { Link } from 'wouter';
 import { LineChart } from 'lucide-react';
 
 const Footer = () => {
+  const linkClass = "text-sm text-[#757575] hover:text-primary";
+  
   return (
     <footer className="bg-white mt-12">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
@@ -20,19 +22,13 @@ const Footer = () => {
             <h3 className="text-sm font-semibold text-[#212121] tracking-wider uppercase">Resources</h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <Link href="/">
-                  <a className="text-sm text-[#757575] hover:text-primary">Documentation</a>
-                </Link>
+                <Link href="/" className={linkClass}>Documentation</Link>
               </li>
               <li>
-                <Link href="/">
-                  <a className="text-sm text-[#757575] hover:text-primary">API Reference</a>
-                </Link>
+                <Link href="/" className={linkClass}>API Reference</Link>
               </li>
               <li>
-                <Link href="/">
-                  <a className="text-sm text-[#757575] hover:text-primary">Guides</a>
-                </Link>
+                <Link href="/" className={linkClass}>Guides</Link>
               </li>
             </ul>
           </div>
@@ -40,19 +36,13 @@ const Footer = () => {
             <h3 className="text-sm font-semibold text-[#212121] tracking-wider uppercase">Legal</h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <Link href="/">
-                  <a className="text-sm text-[#757575] hover:text-primary">Privacy Policy</a>
-                </Link>
+                <Link href="/" className={linkClass}>Privacy Policy</Link>
               </li>
               <li>
-                <Link href="/">
-                  <a className="text-sm text-[#757575] hover:text-primary">Terms of Service</a>
-                </Link>
+                <Link href="/" className={linkClass}>Terms of Service</Link>
               </li>
               <li>
-                <Link href="/">
-                  <a className="text-sm text-[#757575] hover:text-primary">Cookie Policy</a>
-                </Link>
+                <Link href="/" className={linkClass}>Cookie Policy</Link>
               </li>
             </ul>
           </div>
