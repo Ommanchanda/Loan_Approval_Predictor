@@ -120,10 +120,6 @@ def predict(model, df):
         "name": "Income to Loan Ratio",
         "impact": impact_mapping[False]
     })
-    key_factors.append({
-        "name": "Property Area",
-        "impact": impact_mapping['property']
-    })
     
     # Generate recommendations
     recommendations = []
