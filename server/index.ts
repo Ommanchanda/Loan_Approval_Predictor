@@ -1,4 +1,4 @@
-import express, { type Request, Response, NextFunction } from "express";
+import express, { type Request, Response, NextFunction } from "express";//express backend framework
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
 
